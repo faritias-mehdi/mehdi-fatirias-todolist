@@ -48,3 +48,36 @@ input {
 
 }
 
+.columns {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.column {
+    flex-basis: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
